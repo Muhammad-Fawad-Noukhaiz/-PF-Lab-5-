@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+int main() {
+    
+    int x;
+    int y;
+    int z;
+    
+    printf("Enter First Number");
+    scanf("%d",&x);
+    
+    printf("Enter Second Number");
+    scanf("%d",&y);
+    
+    printf("Enter Third Number");
+    scanf("%d",&z);
+    
+    if (x>y) {
+        if (x>z) {
+            printf("First Number is Greatest");
+        }
+        else {
+            printf("Third Number is Greatest");
+        }
+    }
+    
+    else if (y>x) {
+        if (y>z) {
+            printf("Second Number is the Greatest");
+        }
+        else {
+            printf("Third Number is the Greatest");
+        }
+    }
+    
+    else if (z>x) {
+        if (z>y) {
+            printf("Third Number is the Greatest");
+        }
+        else {
+            printf("Second Number is the Greatest");
+        }
+    }
+    
+    else {
+        printf("The Numbers are Invalid");
+    }
+    
+    return 0;
+}
