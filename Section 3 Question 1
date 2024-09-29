@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    
+    int x;
+    int y;
+    
+    printf("Enter First Number");
+    scanf("%d",&x);
+    
+    printf("Enter Second Number");
+    scanf("%d",&y);
+    
+    x>y?printf("First Number is Greater"):printf("Second Number is Greater");
+
+    return 0;
+}
